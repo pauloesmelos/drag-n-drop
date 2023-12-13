@@ -12,15 +12,10 @@ const Kanban = ({ element, setStorage, notes, setNotes, storage, data }) => {
             list.push(item.name);
             setStorage(list);
             let filter = [];
-            console.log(data);
-            console.log(storage);
             for(let i = 0; i < data.length; i++) {
                 for(let j = 0; j < storage.length; j++) {
                    if(data[i] !== storage[j]) {
-                    
-                    //setNotes(data.splice(i,1));
-                    console.log(notes);
-                    
+                    // continue
                    }
                 }
             }
