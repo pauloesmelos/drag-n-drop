@@ -1,1 +1,11 @@
-export const data = ["Note 1", "Note 2" , "Note 3"];
+export const data = [
+    {
+        id: 1, text: "Text 1"
+    },
+    {
+        id: 2, text: "Text 2"
+    },
+    {
+        id: 3, text: "Text 3"
+    },
+];
