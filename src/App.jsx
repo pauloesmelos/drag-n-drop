@@ -10,8 +10,11 @@ const App = () => {
   const [storage, setStorage] = React.useState([]);
   React.useEffect(() => {
     setNotes(data);
+    console.log("armaze");
   }, []);
-
+  React.useEffect(() => {
+    console.log(notes);
+  }, [notes]);
   if(!notes) return null;
   return (
     <div>

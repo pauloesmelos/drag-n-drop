@@ -15,7 +15,7 @@ const Destiny = ({ storage }) => {
       <div 
       ref={drop}
       className="h-48 border-4">
-        <h1 className="font-bold text-center text-xl py-2">Destiny</h1>
+        <h1 className="font-bold text-center text-xl py-2">DIV 2</h1>
         { storage.map((element, index) => (
             <div key={index * Math.random() * 1000}>
                 {element}
